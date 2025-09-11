@@ -6,7 +6,7 @@ duration(s),mode(str),current(A),voltage(V),cutoff_current(A),thermal_system_on(
 195.0,DISCHARGE,31.7,35,1.0,OFF,30.0,transit_ob_1
 41.0,DISCHARGE,80.0,35,1.0,OFF,30.0,delivery_hover_1
 10.0,DISCHARGE,171.7,35,1.0,OFF,30.0,transition_1
-275.8,DISCHARGE,31.7,35,1.0,OFF,30.0,transit_ib_1
+138.3,DISCHARGE,31.7,35,1.0,OFF,30.0,transit_ib_1
 29.0,DISCHARGE,51.7,35,1.0,OFF,30.0,detransition_1
 20.0,DISCHARGE,78.3,35,1.0,OFF,30.0,docking_hover_1
 1.0,DISCHARGE,153.3,35,1.0,OFF,30.0,docking_hover_pulse_1
@@ -18,7 +18,7 @@ duration(s),mode(str),current(A),voltage(V),cutoff_current(A),thermal_system_on(
 195.0,DISCHARGE,31.7,35,1.0,OFF,30.0,transit_ob_2
 41.0,DISCHARGE,80.0,35,1.0,OFF,30.0,delivery_hover_2
 10.0,DISCHARGE,171.7,35,1.0,OFF,30.0,transition_2
-1191.8,DISCHARGE,31.7,35,1.0,OFF,30.0,transit_ib_2
+917.0,DISCHARGE,31.7,35,1.0,OFF,30.0,transit_ib_2
 29.0,DISCHARGE,51.7,35,1.0,OFF,30.0,detransition_2
 20.0,DISCHARGE,78.3,35,1.0,OFF,30.0,docking_hover_2
 1.0,DISCHARGE,153.3,35,1.0,OFF,30.0,docking_hover_pulse_2
@@ -30,7 +30,7 @@ duration(s),mode(str),current(A),voltage(V),cutoff_current(A),thermal_system_on(
 195.0,DISCHARGE,31.7,35,1.0,OFF,30.0,transit_ob_4
 41.0,DISCHARGE,80.0,35,1.0,OFF,30.0,delivery_hover_4
 10.0,DISCHARGE,171.7,35,1.0,OFF,30.0,transition_4
-275.8,DISCHARGE,31.7,35,1.0,OFF,30.0,transit_ib_4
+138.3,DISCHARGE,31.7,35,1.0,OFF,30.0,transit_ib_4
 29.0,DISCHARGE,51.7,35,1.0,OFF,30.0,detransition_4
 20.0,DISCHARGE,78.3,35,1.0,OFF,30.0,docking_hover_4
 1.0,DISCHARGE,153.3,35,1.0,OFF,30.0,docking_hover_pulse_4
