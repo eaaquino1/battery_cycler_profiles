@@ -1,0 +1,10 @@
+duration(s),mode(str),current(A),voltage(V),cutoff_current(A),thermal_system_on(str),temperature_setpoint(degC),step_name(str)
+180.0,CHARGE,0.5,55,0.1,OFF,45.0,0.5A_charge
+180.0,CHARGE,0.6,55,0.1,OFF,45.0,0.6A_charge
+180.0,CHARGE,0.7,55,0.1,OFF,45.0,0.7A_charge
+180.0,CHARGE,0.8,55,0.1,OFF,45.0,0.8A_charge
+180.0,CHARGE,0.9,55,0.1,OFF,45.0,0.9A_charge
+180.0,CHARGE,1.0,55,0.1,OFF,45.0,1.0A_charge
+180.0,CHARGE,1.1,55,0.1,OFF,45.0,1.1A_charge
+180.0,CHARGE,1.2,55,0.1,OFF,45.0,1.2A_charge
+60.0,REST,,,,OFF,45.0,60s_rest
