@@ -1,0 +1,4 @@
+duration(s),mode(str),current(A),voltage(V),cutoff_current(A),thermal_system_on(str),temperature_setpoint(degC),step_name(str)
+10000.0,CHARGE,5,42,0.1,OFF,45.0,5A_charge_to_42V
+60.0,REST,,,,OFF,45.0,60s_rest
+10000.0,CHARGE,0.3,40,0.1,OFF,45.0,0.5A_discharge_to_41V
