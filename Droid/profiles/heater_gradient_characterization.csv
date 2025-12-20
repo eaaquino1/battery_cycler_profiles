@@ -1,0 +1,4 @@
+duration(s),mode(str),current(A),voltage(V),cutoff_current(A),step_name(str),heater_voltage(V),heater_current(A),VSYS_state(str)
+10.0,REST,,,,10s_rest,,,OFF
+600.0,REST,,,,heater_on,21.0,1.2,OFF
+60.0,REST,,,,60s_rest,,,OFF
