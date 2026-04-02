@@ -1,0 +1,11 @@
+step_id(int),next_step(int),parent_step(int),kid_step(int),step_name(str),duration(s),mode(str),current(A),voltage(V),cutoff_current(A),thermal_system_on(str),temperature_setpoint(degC),cutoff_temperature(degC),skip_alarms(str)
+1,2,0,0,30m_heat_to_35deg,1800,REST,,,,ON,45,35,na
+2,5,0,3,30m_25A_charge_to_52V_at_45deg,1800,CHARGE,25,52,5,ON,45,50,na
+3,4,2,0,kid_5s_10A_discharge,5,DISCHARGE,10,48,5,OFF,0,0,UNSAFE_TO_CHARGE
+4,3,2,0,kid_5s_20A_discharge,5,DISCHARGE,20,48,5,OFF,0,0,UNSAFE_TO_CHARGE
+5,6,0,0,cooldown_to_23deg,10,REST,,,,ON,20,23,na
+6,7,0,0,10s_5A_discharge_takeoff,10,DISCHARGE,5,45,1,OFF,0,0,UNSAFE_TO_CHARGE
+7,8,0,0,5s_80A_discharge_takeoff,5,DISCHARGE,80,45,1,OFF,0,0,UNSAFE_TO_CHARGE
+8,9,0,0,5s_40A_discharge_outbound,5,DISCHARGE,40,45,1,OFF,0,0,UNSAFE_TO_CHARGE
+9,10,0,0,1s_70A_discharge_delivery,1,DISCHARGE,70,45,1,OFF,0,0,UNSAFE_TO_CHARGE
+10,0,0,0,postcondition_to_45deg,10,REST,,,,ON,45,25,na

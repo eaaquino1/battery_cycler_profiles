@@ -1,0 +1,14 @@
+duration(s),mode(str),current(A),voltage(V),cutoff_current(A),thermal_system_on(str),temperature_setpoint(degC),step_name(str)
+1800.0,REST,,,,ON,30.0,precondition_to_30C
+3600.0,CHARGE,60.0,58.8,27.0,ON,30.0,2C_charge_to_58.8V
+58.8,DISCHARGE,76.8,36.0,5.0,OFF,30.0,takeoff_hover_trans
+195.0,DISCHARGE,28.8,36.0,5.0,OFF,30.0,transit_ob
+41.0,DISCHARGE,73.2,36.0,5.0,OFF,30.0,delivery_hover
+10.0,DISCHARGE,152.4,36.0,5.0,OFF,30.0,transition
+1290.0,DISCHARGE,31.2,36.0,5.0,OFF,30.0,transit_ib
+29.0,DISCHARGE,53.4,36.0,5.0,OFF,30.0,detransition
+20.0,DISCHARGE,82.8,36.0,5.0,OFF,30.0,docking_hover
+1.0,DISCHARGE,85.2,36.0,5.0,OFF,30.0,docking_hover_pulse
+14.0,DISCHARGE,90.0,36.0,5.0,OFF,30.0,final_docking
+1800.0,REST,,,,ON,30.0,precondition_to_30C
+3600.0,CHARGE,60.0,58.8,27.0,ON,30.0,2C_charge_to_58.8V

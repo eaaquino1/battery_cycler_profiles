@@ -1,0 +1,14 @@
+step_id(int),next_step(int),parent_step(int),kid_step(int),step_name(str),duration(s),mode(str),current(A),voltage(V),cutoff_current(A),thermal_system_on(str),temperature_setpoint(degC),cutoff_temperature(degC),skip_alarms(str)
+1,2,0,0,precondition_to_30C,1800.0,REST,,,,ON,35,30,na
+2,3,0,0,2C_charge_to_58.8V,3600.0,CHARGE,60.0,58.8,27.0,ON,30,50,na
+3,4,0,0,takeoff_hover_trans,58.8,DISCHARGE,76.8,36.0,5.0,OFF,30,0,na
+4,5,0,0,transit_ob,195.0,DISCHARGE,28.8,36.0,5.0,OFF,30,0,na
+5,6,0,0,delivery_hover,41.0,DISCHARGE,73.2,36.0,5.0,OFF,30,23,na
+6,7,0,0,transition,10.0,DISCHARGE,152.4,36.0,5.0,OFF,30,0,na
+7,8,0,0,transit_ib,1290.0,DISCHARGE,31.2,36.0,5.0,OFF,30,0,na
+8,9,0,0,detransition,29.0,DISCHARGE,53.4,36.0,5.0,OFF,30,0,na
+9,10,0,0,docking_hover,20.0,DISCHARGE,82.8,36.0,5.0,OFF,30,0,na
+10,11,0,0,docking_hover_pulse,1.0,DISCHARGE,85.2,36.0,5.0,OFF,30,25,na
+11,12,0,0,final_docking,14.0,DISCHARGE,90.0,36.0,5.0,OFF,30,,na
+12,13,0,0,precondition_to_30C,3600.0,REST,,,,ON,30,50,na
+13,0,0,0,2C_charge_to_58.8V,3600.0,CHARGE,60.0,58.8,27.0,ON,30,50,na
