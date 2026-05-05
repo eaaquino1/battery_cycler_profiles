@@ -1,0 +1,2 @@
+step_id(int),next_step(int),parent_step(int),kid_step(int),step_name(str),duration(s),mode(str),current(A),voltage(V),cutoff_current(A),thermal_system_on(str),temperature_setpoint(degC),cutoff_temperature(degC),skip_alarms(str)
+,,,,,,,,,,,,,

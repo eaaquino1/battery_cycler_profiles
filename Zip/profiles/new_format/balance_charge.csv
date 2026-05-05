@@ -1,0 +1,3 @@
+step_id(int),next_step(int),parent_step(int),kid_step(int),step_name(str),duration(s),mode(str),current(A),voltage(V),cutoff_current(A),thermal_system_on(str),temperature_setpoint(degC),cutoff_temperature(degC),skip_alarms(str)
+1,2,0,0,5A_charge_to_55V,10000.0,CHARGE,5.0,55.0,0.1,OFF,30.0,30.0,na
+2,0,0,0,60s_rest,60.0,CHARGE,,,,OFF,30.0,30.0,na
