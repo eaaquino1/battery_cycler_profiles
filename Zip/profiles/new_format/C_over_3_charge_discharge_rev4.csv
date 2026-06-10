@@ -1,0 +1,9 @@
+step_id(int),next_step(int),parent_step(int),kid_step(int),step_name(str),duration(s),mode(str),current(A),voltage(V),cutoff_current(A),thermal_system_on(str),temperature_setpoint(degC),cutoff_temperature(degC),skip_alarms(str)
+1,2,0,0,C/3_charge_to_57.2V,15000.0,CHARGE,9,57.2,1,OFF,30,30,na
+2,3,0,0,1A_charge_to_58.6V,20000.0,CHARGE,1.8,58.6,0.2,OFF,31,31,"UNSAFE_TO_CHARGE,UNSAFE_TO_TAKE_OFF"
+3,4,0,0,2hr_rest,7200.0,CHARGE,0.8,58.8,0.1,OFF,32,32,"UNSAFE_TO_CHARGE,UNSAFE_TO_TAKE_OFF"
+4,5,0,0,C/3_discharge_to_47.3V,15000.0,DISCHARGE,9,47.3,1,OFF,33,33,"UNSAFE_TO_CHARGE,UNSAFE_TO_TAKE_OFF"
+5,6,0,0,1A_discharge_to_42V,20000.0,DISCHARGE,0.2,42,0.9,OFF,34,34,"UNSAFE_TO_CHARGE,UNSAFE_TO_TAKE_OFF"
+6,7,0,0,0.9A_discharge_to_36V,20000.0,CHARGE,0.7,36.5,0.1,OFF,35,35,"UNSAFE_TO_CHARGE,UNSAFE_TO_TAKE_OFF"
+7,8,0,0,5hr_rest,18000.0,CHARGE,0.8,58.8,0.1,OFF,36,36,"UNSAFE_TO_CHARGE,UNSAFE_TO_TAKE_OFF"
+8,0,0,0,5A_charge_to_50V,10000.0,CHARGE,5,50.0,0.1,OFF,37,37,"UNSAFE_TO_CHARGE,UNSAFE_TO_TAKE_OFF"

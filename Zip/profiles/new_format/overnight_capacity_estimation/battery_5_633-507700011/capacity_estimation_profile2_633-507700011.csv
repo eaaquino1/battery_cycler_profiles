@@ -1,0 +1,7 @@
+step_id(int),next_step(int),parent_step(int),kid_step(int),step_name(str),duration(s),mode(str),current(A),voltage(V),cutoff_current(A),thermal_system_on(str),temperature_setpoint(degC),cutoff_temperature(degC),skip_alarms(str)
+1,2,0,0,30A_charge_to_90SOC,1137.4,CHARGE,30.0,58.5,10.0,ON,30.0,45.0,"na"
+2,3,0,0,50A_discharge_to_50SOC,682.4,DISCHARGE,50.0,36.0,10.0,OFF,30.0,30.0,"na"
+3,4,0,0,200A_1s_pulse,1.0,DISCHARGE,199.9,36.0,10.0,OFF,30.0,30.0,na
+4,5,0,0,30min_rest,1800.0,CHARGE,0.7,58.5,0.5,ON,30.0,45.0,na
+5,6,0,0,12A_discharge_to_25SOC,1777.1,DISCHARGE,12.0,36.0,10,ON,30.0,45.0,na
+6,0,0,0,30min_rest,1800.0,CHARGE,0.7,58.5,0.5,ON,30.0,45.0,na
